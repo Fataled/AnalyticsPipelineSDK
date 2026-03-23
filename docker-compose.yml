@@ -1,0 +1,41 @@
+version: '3'
+services:
+  zookeeper: # Kafka's coordinator aka manages the clusters of info
+    image: confluentinc/cp-zookeeper:7.4.0
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+
+  kafka: # Actual msg broker
+    image: confluentinc/cp-kafka:7.4.0
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092" # Ports it on
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092 # Where to listen
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1 # 1 Broker (Zookeeper) 1 duplication of each msg
+
+  clickhouse: # It's a different db service unlike postgres which is row by row this is columm by columm which is better for analytical purposes
+    image: clickhouse/clickhouse-server:latest
+    ports:
+      - "8123:8123"   # HTTP interface
+      - "9000:9000"   # Native interface
+    environment:
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: ""
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"   # Grafana web UI
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin   # default login password
+    depends_on:
+      - clickhouse
