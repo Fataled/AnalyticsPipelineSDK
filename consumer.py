@@ -25,7 +25,7 @@ async def consume():
 
     consumer = AIOKafkaConsumer(
         "events",
-        bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:9092")],
+        bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS")],
         group_id="analytics-consumer",
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
         auto_offset_reset="earliest",
