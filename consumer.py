@@ -20,6 +20,7 @@ async def create_topic():
 async def consume():
 
     await create_topic()
+    await asyncio.sleep(3)
     setup_table()
 
     consumer = AIOKafkaConsumer(
