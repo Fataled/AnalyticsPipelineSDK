@@ -2,6 +2,7 @@ from aiokafka import AIOKafkaConsumer
 from clickhouse_client import setup_table, insert_event
 import json
 import asyncio
+import os
 
 async def consume():
 
@@ -9,7 +10,7 @@ async def consume():
 
     consumer = AIOKafkaConsumer(
         "events",
-        bootstrap_servers=["localhost:9092"],
+        bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:9092")],
         group_id="analytics-consumer",
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
     )
