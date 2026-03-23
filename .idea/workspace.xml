@@ -4,48 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d03692-df3b-457d-b05c-cb51f2dd71a4" name="Changes" comment=".gitignore">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AnalyticsPipeline.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clickhouse_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline.slnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/AnalyticsClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/AnalyticsPipeline.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/AnalyticsPipeline.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/AnalyticsPipeline.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/AnalyticsPipeline.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/python/analytics_pipeline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/python/analytics_pipeline/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/python/setup.py" afterDir="false" />
+    <list default="true" id="86d03692-df3b-457d-b05c-cb51f2dd71a4" name="Changes" comment="ssmall changed to docker-compose.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -106,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763677794107</updated>
-      <workItem from="1774237769474" duration="4554000" />
+      <workItem from="1774237769474" duration="7081000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <option name="closed" value="true" />
@@ -124,7 +84,47 @@
       <option name="project" value="LOCAL" />
       <updated>1774242322271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="small fixes to use .env">
+      <option name="closed" value="true" />
+      <created>1774243623844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774243623844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="small fixes to use .env">
+      <option name="closed" value="true" />
+      <created>1774243984162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774243984162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="small fixes to use .env">
+      <option name="closed" value="true" />
+      <created>1774244081646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774244081646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="small fixes to use .env">
+      <option name="closed" value="true" />
+      <created>1774244385397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774244385397</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ssmall changed to docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1774244461489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774244461489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="small fixes to use .env" />
+    <MESSAGE value="ssmall changed to docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssmall changed to docker-compose.yml" />
   </component>
 </project>

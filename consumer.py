@@ -13,6 +13,7 @@ async def consume():
         bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:9092")],
         group_id="analytics-consumer",
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
+        auto_offset_reset="earliest",
     )
 
     await consumer.start()
