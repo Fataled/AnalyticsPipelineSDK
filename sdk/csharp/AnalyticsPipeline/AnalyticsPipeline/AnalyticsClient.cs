@@ -25,6 +25,7 @@ public class AnalyticsClient
             timestamp =  actualTimestamp.ToString("O"),
             properties
         });
+        
         response.EnsureSuccessStatusCode();
         return await response.Content.ReadFromJsonAsync<JsonElement>();
     }

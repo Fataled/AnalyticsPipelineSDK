@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <PackageId>AnalyticsPipeline</PackageId>
+        <Authors>Brume Ako</Authors>
+        <Version>1.0.0</Version>
+        <Description>Analytics Pipeline SDK</Description>
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
