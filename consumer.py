@@ -1,11 +1,25 @@
 from aiokafka import AIOKafkaConsumer
+from aiokafka.admin import AIOKafkaAdminClient, NewTopic
+
 from clickhouse_client import setup_table, insert_event
 import json
 import asyncio
 import os
 
+async def create_topic():
+    admin = AIOKafkaAdminClient(bootstrap_servers=["kafka:29092"])
+    await admin.start()
+    try:
+        await admin.create_topics([NewTopic(name="events", num_partitions=1, replication_factor=1)])
+        print("Topic created")
+    except Exception:
+        print("Topic already exists")
+    finally:
+        await admin.close()
+
 async def consume():
 
+    await create_topic()
     setup_table()
 
     consumer = AIOKafkaConsumer(
