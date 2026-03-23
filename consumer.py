@@ -7,7 +7,7 @@ import asyncio
 import os
 
 async def create_topic():
-    admin = AIOKafkaAdminClient(bootstrap_servers=["kafka:29092"])
+    admin = AIOKafkaAdminClient(bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS")])
     await admin.start()
     try:
         await admin.create_topics([NewTopic(name="events", num_partitions=1, replication_factor=1)])

@@ -65,7 +65,7 @@ services:
       clickhouse:
         condition: service_started
     environment:
-      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
       CLICKHOUSE_HOST: clickhouse
       CLICKHOUSE_PORT: 8123
     restart: on-failure
