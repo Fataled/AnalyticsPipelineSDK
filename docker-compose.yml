@@ -50,8 +50,10 @@ services:
   consumer:
     build: .
     depends_on:
-      - kafka
-      - clickhouse
+      kafka:
+          condition: service_healthy
+      clickhouse:
+        condition: service_started
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:9092
       CLICKHOUSE_HOST: clickhouse
