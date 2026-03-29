@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d03692-df3b-457d-b05c-cb51f2dd71a4" name="Changes" comment="ssmall changed to docker-compose.yml" />
+    <list default="true" id="86d03692-df3b-457d-b05c-cb51f2dd71a4" name="Changes" comment="ssmall changed to docker-compose.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/.idea/.idea.AnalyticsPipeline/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/AnalyticsPipeline.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/AnalyticsPipeline.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/Debug/net10.0/AnalyticsPipeline.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/csharp/AnalyticsPipeline/AnalyticsPipeline/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763677794107</updated>
-      <workItem from="1774237769474" duration="8046000" />
+      <workItem from="1774237769474" duration="11410000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <option name="closed" value="true" />
@@ -162,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774251145675</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ssmall changed to docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1774251550448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774251550448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ssmall changed to docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1774253006717</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774253006717</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

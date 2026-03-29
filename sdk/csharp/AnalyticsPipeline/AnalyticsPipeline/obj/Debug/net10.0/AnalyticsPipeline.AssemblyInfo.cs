@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AnalyticsPipeline")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Brume Ako")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Analytics Pipeline SDK")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09068b127352b9b0a77c08eac430e8ab370b9d3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalyticsPipeline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalyticsPipeline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
